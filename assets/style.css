@@ -1,0 +1,155 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin:0
+}
+
+.menu_block img {
+    width: 30px;
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 14px;
+}
+
+.gmail, .imagens, .menu_block {
+    padding-right: 20px;
+}
+
+.gmail, .imagens {
+    padding-top: 7px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.gmail:hover, .imagens:hover {
+    text-decoration: underline;
+}
+
+.login button {
+   background-color: #1188d8;
+   border-radius: 5px;
+    width: 120px;
+    height: 36px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.search img {
+    width: 30px;
+    height: 30px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 500px;
+    height: 44px;
+    border-radius: 120px 120px 120px 120px;
+    border: 0.5px solid #cecfcf;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+.search input {
+    width: 475px;
+    height: 38px;
+    border: 0px solid #FFF;
+    outline: none;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button button {
+    width: 141px;
+    height: 36px;
+    margin-left: 10px;
+    background-color: #F8F9FA;
+    border: none;
+    color: #202124;
+    border-radius: 5px;
+}
+
+.button button:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    background-color: #F2F2F2;
+    color: #70757A;
+    margin-top: 150px;
+}
+
+.country{
+    flex:1;
+    padding: 15px;
+    margin-left: 10px;
+    border-bottom: 0.5px solid #cecfcf
+}
+
+.footer_menu {
+    display: flex;
+    margin-left: 10px;
+}
+
+.footer_menu1, .footer_menu2 {
+    flex: 1;
+}
+
+.footer_menu1 ul, .footer_menu2 ul {
+    display: flex;
+    list-style: none;
+    padding: 15px;
+}
+
+.footer_menu1 a, .footer_menu2 a {
+    text-decoration: none;
+    color: #70757A ;
+    padding-right: 20px
+}
+
+.footer_menu2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_menu a:hover{
+    text-decoration: underline;
+}
+
+
